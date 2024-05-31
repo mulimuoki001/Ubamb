@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="landing-page.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+    <option name="filePath" value="$PROJECT_DIR$/lib/components/landing.dart" />
+    <method v="2">
+      <option name="Gradle.BeforeRunTask" enabled="false" tasks="" externalProjectPath="$PROJECT_DIR$/lib" vmOptions="" scriptParameters="" />
+    </method>
+  </configuration>
+</component>

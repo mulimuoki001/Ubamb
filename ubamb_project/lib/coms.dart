@@ -28,7 +28,6 @@ class DirectCommunication extends StatelessWidget {
               icon: Icon(Icons.call),
               label: Text('Voice Call'),
               onPressed: () {
-                // Code to initiate a voice call
               },
             ),
             SizedBox(height: 20),
@@ -36,7 +35,6 @@ class DirectCommunication extends StatelessWidget {
               icon: Icon(Icons.video_call),
               label: Text('Video Call'),
               onPressed: () {
-                // Code to initiate a video call
               },
             ),
           ],

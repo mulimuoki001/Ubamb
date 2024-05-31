@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         // tested with just a hot reload.
         colorScheme:
-            ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 228, 226, 233)),
+            ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 228, 226, 233)),
 
         useMaterial3: true,
       ),
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         ),
-        body: Center(
+        body: const Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
@@ -36,14 +36,14 @@ class MyApp extends StatelessWidget {
         floatingActionButton: SizedBox(
           width: 200,
           child: FloatingActionButton(
-            child: Text(
+            backgroundColor: Colors.black,
+            onPressed: () {},
+            child: const Text(
               'Sign Out',
               style: TextStyle(
                 color: Colors.white,
               ),
             ),
-            backgroundColor: Colors.black,
-            onPressed: () {},
           ),
         ),
       ),

@@ -29,7 +29,7 @@ class UbambHomePage extends StatelessWidget {
         decoration: const BoxDecoration(
           image: DecorationImage(
             image: AssetImage(
-                'assets/amb.jpg'), // Ensure this image is in your assets folder
+                'assets/amb.jpg'), 
             fit: BoxFit.cover,
           ),
         ),
@@ -47,7 +47,7 @@ class UbambHomePage extends StatelessWidget {
                         fontSize: 30.0,
                         fontWeight: FontWeight.bold,
                         color: Color.fromARGB(
-                            255, 0, 0, 0), // Adjust text color for visibility
+                            255, 0, 0, 0), 
                       ),
                     ),
                   ),
@@ -58,7 +58,7 @@ class UbambHomePage extends StatelessWidget {
                       textAlign: TextAlign.center,
                       style: TextStyle(
                           color: Color.fromARGB(255, 0, 0,
-                              0)), // Adjust text color for visibility
+                              0)), 
                     ),
                   ),
                   const SizedBox(height: 24.0),

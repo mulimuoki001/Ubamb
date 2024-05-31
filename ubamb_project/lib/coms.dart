@@ -21,6 +21,7 @@ class DirectCommunication extends StatelessWidget {
         minHeight: 100,
         color: Colors.red,
       })
+      final BoxConstraints? constraints;
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

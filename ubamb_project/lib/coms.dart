@@ -1,16 +1,17 @@
-import 'dart:svg';
 
 import 'package:flutter/material.dart';
 
 class DirectCommunication extends StatelessWidget {
+  const DirectCommunication({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Direct Communication')),
+      appBar: AppBar(title: const Text('Direct Communication')),
       container(
         child: Container(),
-        padding: EdgeInsets.all(20.0),
-        margin: EdgeInsets.all(20.0),
+        padding: const EdgeInsets.all(20.0),
+        margin: const EdgeInsets.all(20.0),
         Transform: Matrix4.rotationZ(0.0),
       )
       Boxconstraints({
@@ -25,15 +26,15 @@ class DirectCommunication extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             ElevatedButton.icon(
-              icon: Icon(Icons.call),
-              label: Text('Voice Call'),
+              icon: const Icon(Icons.call),
+              label: const Text('Voice Call'),
               onPressed: () {
               },
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             ElevatedButton.icon(
-              icon: Icon(Icons.video_call),
-              label: Text('Video Call'),
+              icon: const Icon(Icons.video_call),
+              label: const Text('Video Call'),
               onPressed: () {
               },
             ),

@@ -18,17 +18,6 @@ class UbambApp extends StatelessWidget {
 
 class UbambHomePage extends StatelessWidget {
   const UbambHomePage({super.key});
-  // List of names
-  final List<String> names = [
-    'Alice',
-    'Bob',
-    'Charlie',
-    'Diana',
-    'Eve',
-    'Frank',
-    'Grace',
-    'Hank'
-  ];
   
   @override
   Widget build(BuildContext context) {

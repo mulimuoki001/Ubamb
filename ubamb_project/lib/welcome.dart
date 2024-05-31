@@ -21,14 +21,43 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
-          backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+          backgroundColor: Colors.white,
+          title: const Text('Welcome to Ubamb'),
+          centerTitle: true,
+          elevation: 0,
+          foregroundColor: Colors.black,
+          actions: [
+            IconButton(
+              icon: const Icon(Icons.person),
+              onPressed: () {},
+              color: Colors.blue,
+            ),
+          ],
         ),
         body: const Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Text(
-                'Welcome to Ubamb',
+              Image.asset(
+                'assets/amb.jpg',
+                width: 200,
+                height: 200,
+              ),
+              const SizedBox(height: 20),
+              ElevatedButton.icon(
+                icon: const Icon(Icons.call),
+                label: const Text('Voice Call'),
+                onPressed: () {
+                  // Code to initiate a voice call
+                },
+              ),
+              const SizedBox(height: 20),
+              ElevatedButton.icon(
+                icon: const Icon(Icons.video_call),
+                label: const Text('Video Call'),
+                onPressed: () {
+                  // Code to initiate a video call
+                },
               ),
             ],
           ),
